@@ -1,5 +1,5 @@
 /*
- * File: 1-puts.c
+ * File: 1-last_digit.c
  * Author: Bruno Mendes
  */
 #include <stdio.h>
