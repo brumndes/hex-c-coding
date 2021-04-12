@@ -13,7 +13,7 @@ int main(void)
 {
 	int b;
 
-	sk = 0;
+	b = 0;
 	while (b < 10)
 	{
 		putchar('0' + (b % 10));
