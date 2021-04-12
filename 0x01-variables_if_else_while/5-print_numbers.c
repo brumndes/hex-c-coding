@@ -15,8 +15,8 @@ int main(void)
 
 	while (b < 10)
 	{
-		b = b + 1
-		printf("%d", b)
+		b = b + 1;
+		printf("%d", b);
 	}
 	return (0);
 }
