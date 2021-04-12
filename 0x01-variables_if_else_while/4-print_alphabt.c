@@ -15,7 +15,7 @@ int main(void)
 
 	for (b = 'a'; b <= 'z'; b++)
 	{
-		while ((b < 'e' && b > 'e') || (b < 'q' && b > 'q'))
+		for (b = 'a'; b <= 'z'; b++)
 		{	
 			putchar(b);
 		}
