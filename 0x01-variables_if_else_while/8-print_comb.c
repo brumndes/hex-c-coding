@@ -11,17 +11,20 @@
  */
 int main(void)
 {
-	int b = 0;
-
-	for (b = '0'; b <= '9'; b++)
-	{
-		putchar((b % 10) + '0');
-		if (b != 9)
+	int x;
+	int a = (',');
+	int b = (' ');
+	for (x = 0; x <= 9; x++)
+	{			
+		putchar((x % 10) + '0');
+		if (x != 9)
+	{	
+		putchar(a);
+		putchar(b);
+		}	
+		else
 		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		}			
+		return (0);
 }
