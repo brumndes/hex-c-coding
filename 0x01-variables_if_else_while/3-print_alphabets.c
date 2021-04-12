@@ -11,16 +11,15 @@
  */
 int main(void)
 {
-	char b, B;
+	char c;
 
-	for (b = 'a'; b <= 'z'; b++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-        	putchar(b);
+		putchar(c);
 	}
-	for (B = 'A'; B <= 'Z'; B++)
-        {
-        	putchar(B);
-        }
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
-	return (0);
 }
