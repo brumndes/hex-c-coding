@@ -1,5 +1,5 @@
 /*
- * File: 7-print_tebahpla.c
+ * File: 
  * Author: Bruno Mendes
  */
 #include <stdio.h>
@@ -11,9 +11,9 @@
  */
 int main(void)
 {
-	char b;
+	int b;
 
-	for (b = 'z'; b >= 'a'; b--)
+	for (b = '0'; b <= '9'; b++)
 	{
 		putchar(b, ", ");
 	}
