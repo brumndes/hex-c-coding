@@ -1,4 +1,6 @@
-uthor: Bruno Mendes
+/*
+ * File: 1-puts.c
+ * Author: Bruno Mendes
  */
 #include <stdio.h>
 #include <stdlib.h>
