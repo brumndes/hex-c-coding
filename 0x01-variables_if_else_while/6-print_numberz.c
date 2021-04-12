@@ -11,12 +11,12 @@
  */
 int main(void)
 {
-	int b = 0;
+	char b;
 
-	while (b < 10)
+	for (b = '0'; b <= '9'; b++)
 	{
-		b = b + 1;
-		printf("%d", b);
+		putchar(b);
 	}
+	putchar('\n');
 	return (0);
 }
