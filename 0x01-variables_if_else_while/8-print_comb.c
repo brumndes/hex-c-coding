@@ -1,5 +1,5 @@
 /*
- * File: 
+ * File: 8-print_comb.c
  * Author: Bruno Mendes
  */
 #include <stdio.h>
