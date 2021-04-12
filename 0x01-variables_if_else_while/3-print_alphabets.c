@@ -3,23 +3,22 @@
  * Author: Bruno Mendes
  */
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - prints the alphabet in lowecase and highercase
  * Return: it  returns 0
  */
 int main(void)
 {
-	char c;
+	char b;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (b = 'a'; b <= 'z'; b++)
 	{
-		putchar(c);
+		putchar(b);
 	}
-	for (c = 'A'; c <= 'Z'; c++)
+	for (b = 'A'; b <= 'Z'; b++)
 	{
-		putchar(c);
+		putchar(b);
 	}
 	putchar('\n');
+	return (0);
 }
