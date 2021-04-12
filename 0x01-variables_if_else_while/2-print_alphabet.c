@@ -10,8 +10,13 @@
  * Return: it  returns 0
  */
 int main(void)
-[
-	char[50] = abcdefghijklmnopqrstuvwxyz;
-	printf("%s", char[50]);
-	return (0);
+{
+	char b;
+
+	for (b = 'a'; b <= 'z'; b++)
+	{
+		putchar(b);
+	}
+	putchar('\n');
+	return(0);
 }
