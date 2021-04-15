@@ -5,10 +5,11 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * main - prints Holberton
+ * main - print alphabet
  * Return: it  returns 0
+ *
  */
-int main(void)
+void print_alphabet(void)
 {
 	char b;
 
@@ -16,6 +17,5 @@ int main(void)
 	{
 		putchar(b);
 	}
-	putchar('\n');       
-	return (0);
+	putchar('\n');
 }
