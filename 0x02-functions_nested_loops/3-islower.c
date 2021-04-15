@@ -7,6 +7,7 @@
 /**
  *_islower  - tests if the word is lowercase
  * Return: it  returns 0
+ * @c: is integer
  */
 int _islower(int c)
 {
