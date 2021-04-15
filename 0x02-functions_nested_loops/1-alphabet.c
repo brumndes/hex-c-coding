@@ -5,16 +5,16 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * main - print alphabet
+ * print_alphabet - prints alphabet
  * Return: it  returns 0
- *
  */
 void print_alphabet(void)
 {
 	char b;
 
 	for (b = 'a'; b <= 'z'; b++)	
+	{
 		_putchar(b);
-
+	}
 	_putchar('\n');
 }
