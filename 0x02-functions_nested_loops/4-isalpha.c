@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- *_islower  - tests if the word is lowercase
+ * _isalpha - tests if the word is lowercase
  * Return: it  returns 0
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c > 96) && (c < 123))
 	{
