@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _abs - tests if the word is lowercase
+ * 7-print_last_digit.c - tests if the word is lowercase
  * Return: it  returns 0
- * @n, c, b: is integer
+ * @a, @c, @b: is integer
  */
 int print_last_digit(int n)
 {
