@@ -10,13 +10,23 @@
  * @n: is integer
  */
 int _abs(int n)
-{
+}
 	if (n >= 0)
-	{
+	{	
 		return (n);
 	}
-	else if (n < 0)
+	else if ((n == 1) || (n == -1))
 	{
-		return (n * -1); 
+		int a;
+
+		a = n * n;
+		return (a);
+	}
+	else
+	{
+		int a;
+
+		a = (n * -1);
+		return (a);
 	}
 }
