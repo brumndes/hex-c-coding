@@ -1,13 +1,13 @@
 /*
- * File: 6
+ * File: 7
  * Author: Bruno Mendes
  */
 #include <stdio.h>
 #include "holberton.h"
 /**
- * 7-print_last_digit.c - tests if the word is lowercase
+ * 7-print_last_digit.c - prints last digit of a number
  * Return: it  returns 0
- * @a, @c, @b: is integer
+ * @a, @c, @b, @n: is integer
  */
 int print_last_digit(int n)
 {
