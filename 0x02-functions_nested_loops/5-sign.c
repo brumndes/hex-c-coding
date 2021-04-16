@@ -7,7 +7,7 @@
 /**
  * print_sign - tests some numbers
  * Return: it  returns 0
- * @c: is integer
+ * @n: is integer
  */
 int print_sign(int n)
 {
