@@ -6,23 +6,21 @@
 #include "holberton.h"
 /**
  * jack_bauer - a function prints every minute of the day from 00:00 to 23_59.
- * Return: it  returns 0
- * @n: is integer
+ * Return: it  returns 0 
  */
-void hr_01(void);
-void hr_02(void);
-
+void hr_1(void);
+void hr_2(void);
 void jack_bauer(void)
 {
-	hr_01();
-	hr_02();
+	hr_1();
+	hr_2();
 }
 /**
- * hr_01 - returns each minute for the first 20hrs
+ * hr_1 - returns each minute for the first 20hrs
  *
- * @hr_01 -  digit
+ * @hr_1 -  digit
  */
-void hr_01(void)
+void hr_1(void)
 {
 	int hh, h, m, s;
 
