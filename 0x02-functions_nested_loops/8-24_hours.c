@@ -14,9 +14,9 @@ void jack_bauer(void)
 	hr_1();
 	hr_2();
 }
-/**
- * hr_1 - returns each minute for the first 20hrs 
+/** 
  * @hr_1 -  digit
+ * hr_1 - till 20:00
  */
 void hr_1(void)
 {
