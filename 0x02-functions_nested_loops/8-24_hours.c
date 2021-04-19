@@ -5,8 +5,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * jack_bauer - a function prints every minute of the day from 00:00 to 23_59.
- * Return: it  returns 0 
+ * jack_bauer - a function prints every minute of the day from 00:00 to 23_59 
  */
 void hr_1(void);
 void hr_2(void);
